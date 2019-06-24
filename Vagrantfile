@@ -4,8 +4,8 @@
 Vagrant.configure("2") do |config|
 
   # Configuration
-  nb_workers = 1
-  bridge_interface = "en5: Thunderbolt Ethernet Slot 1"
+  nb_workers = 2
+  bridge_interface = "wlp2s0"
 
   # Common VM configuration
 
